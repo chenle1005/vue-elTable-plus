@@ -1,0 +1,57 @@
+{
+  "name": "vue-eltable-plus",
+  "version": "1.0.1",
+  "description": "二次封装element-ui el-table 表格组件",
+  "main": "src/index.ts",
+  "author": "chenle",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "tsc": "tsc",
+    "lib": "vue-cli-service build --target lib --name powerful-table --dest lib ./src/powerfulTable/index.ts && cp ./types/powerful-table.d.ts ./lib/"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "element-plus",
+    "vue3.0",
+    "table",
+    "ts",
+    "tsx",
+    "el-table",
+    "batchOperation",
+    "pagination",
+    "checkbox"
+  ],
+  "types": "lib/powerful-table.d.ts",
+  "homepage": "https://github.com/peng-xiao-shuai/el-plus-powerful-table/tree/master-ts",
+  "bugs": {
+    "url": "https://github.com/Peng-Xiao-Shuai/el-plus-powerful-table/issues",
+    "email": "1612565136@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peng-xiao-shuai/el-plus-powerful-table.git"
+  },
+  "dependencies": {
+    "element-plus": "^1.0.2-beta.70",
+    "vue": "^3.2.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "not ie 11",
+    "not op_mini all"
+  ],
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.2.0",
+    "typescript": "^4.4.3"
+  }
+}
