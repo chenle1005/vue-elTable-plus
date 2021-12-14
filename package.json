@@ -26,15 +26,6 @@
     "checkbox"
   ],
   "types": "lib/powerful-table.d.ts",
-  "homepage": "https://github.com/peng-xiao-shuai/el-plus-powerful-table/tree/master-ts",
-  "bugs": {
-    "url": "https://github.com/Peng-Xiao-Shuai/el-plus-powerful-table/issues",
-    "email": "1612565136@qq.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/peng-xiao-shuai/el-plus-powerful-table.git"
-  },
   "dependencies": {
     "element-plus": "^1.0.2-beta.70",
     "vue": "^3.2.0"
